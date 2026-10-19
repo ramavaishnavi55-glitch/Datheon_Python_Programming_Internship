@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-
-# Hangman Word Guessing Game (Console)
+# Project 1: Hangman Word Guessing Game (Console)
 
 An interactive, modular console-based Hangman game built in Python. This project features dynamic ASCII art gallows, robust input validation, and clean state tracking designed as a foundational programming exercise.
 
@@ -48,6 +46,32 @@ An investment portfolio tracking utility that computes real-time valuation, perc
 
 1. Ensure `constituents.csv` is in the same directory as `portfolio.py`.
 2. Install the required dependencies:
-   ```bash
+   ````bash
    pip install yfinance pandas colorama
+   ```'=
+   ````
+
+---
+
+## Project 3: Automated File Organizer & Cleanup Utility
+
+An autonomous desktop automation script that cleans up cluttered directories by inspecting file extensions, dynamically creating category subfolders, and safely relocating files while handling naming collisions and permission exceptions.
+
+### Features
+
+- **Directory Inspection:** Uses `os.scandir()` to scan and analyze files within any target folder[cite: 4].
+- **Automatic Categorization:** Maps file extensions (`.pdf`, `.jpg`, `.mp4`, `.zip`, `.py`, etc.) to organized subfolders (`Documents`, `Images`, `Videos`, `Archives`, `Code`, etc.)[cite: 4].
+- **Collision Protection:** Automatically detects existing files in the destination directory and resolves naming conflicts using counter suffixes.
+- **Exception Safety:** Gracefully catches and handles `PermissionError` and other OS exceptions[cite: 4].
+- **Execution Logging:** Prints a structured summary detailing the total files relocated per category[cite: 4].
+
+### Requirements
+
+- Python 3.x (uses built-in `os`, `shutil`, and `pathlib` standard libraries)[cite: 4]
+
+### How to Run
+
+1. Open your terminal and run the script:
+   ```bash
+   python organizer.py
    ```

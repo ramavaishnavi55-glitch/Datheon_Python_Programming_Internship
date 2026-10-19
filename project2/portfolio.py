@@ -200,3 +200,65 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+"""============================================================
+       ENHANCED STOCK PORTFOLIO PERFORMANCE TRACKER      
+============================================================
+Successfully loaded 503 valid tickers from constituents.csv.
+
+--- Main Menu ---
+1. Add / Update Stock Position
+2. Remove Stock Position
+3. View Portfolio & Performance Report
+4. Export Summary to CSV
+5. Exit
+Select an option (1-5): 3
+
+Your portfolio is currently empty.
+
+--- Main Menu ---
+1. Add / Update Stock Position
+2. Remove Stock Position
+3. View Portfolio & Performance Report
+4. Export Summary to CSV
+5. Exit
+Select an option (1-5): 1
+Enter stock ticker symbol (e.g., AAPL, MSFT): AEE
+Enter number of shares for AEE: 3
+Enter purchase price per share for AEE ($): 40
+✅ Successfully updated position for AEE.
+
+--- Main Menu ---
+1. Add / Update Stock Position
+2. Remove Stock Position
+3. View Portfolio & Performance Report
+4. Export Summary to CSV
+5. Exit
+Select an option (1-5): 3
+
+=========================================================================================================
+Ticker   | Shares   | Buy ($)    | Current ($)  | Invested ($) | Market Val ($) | Gain/Loss (%)   | Sector            
+---------------------------------------------------------------------------------------------------------
+$AEE: possibly delisted; no price data found  (period=1d)
+AEE      | 3.00     | $40.00     | $150.00      | $120.00      | $450.00        | +275.00% | Utilities         
+---------------------------------------------------------------------------------------------------------
+Total Portfolio Cost:   $120.00
+Total Market Value:     $450.00
+Total Net Gain/Loss:    +330.00 (+275.00%)
+=========================================================================================================
+
+--- Portfolio Sector Allocation ---
+• Utilities: $450.00 (100.0%)
+
+--- Main Menu ---
+1. Add / Update Stock Position
+2. Remove Stock Position
+3. View Portfolio & Performance Report
+4. Export Summary to CSV
+5. Exit
+Select an option (1-5): 5   
+
+Thank you for using the Portfolio Tracker."""
