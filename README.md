@@ -75,3 +75,28 @@ An autonomous desktop automation script that cleans up cluttered directories by 
    ```bash
    python organizer.py
    ```
+
+---
+
+## Project 4: Rule-Based Interactive Terminal Assistant / Chatbot
+
+A responsive terminal-based conversational assistant that parses user inputs using regular expressions and keyword matching, handles FAQs loaded from a JSON dataset, and provides graceful fallbacks and clean exit flows[cite: 6].
+
+### Features
+
+- **JSON Dataset Integration:** Dynamically loads greetings and FAQ entries from `sample_faq.json`[cite: 6, 7].
+- **Input Normalization:** Strips punctuation and converts input to lowercase for robust pattern matching[cite: 6].
+- **Multi-Intent Recognition:** Recognizes greetings, business hours, submission guidelines, and certificate timelines.
+- **Graceful Fallbacks & Exit Control:** Handles unrecognized queries smoothly and exits cleanly via `exit`, `quit`, or `bye`[cite: 6].
+
+### Requirements
+
+- Python 3.x (uses built-in `re`, `json`, `os`, and `random` libraries)[cite: 6]
+
+### How to Run
+
+1. Ensure `sample_faq.json` is in the same folder as `chatbot.py`[cite: 6, 7].
+2. Run the script:
+   ```bash
+   python chatbot.py
+   ```
