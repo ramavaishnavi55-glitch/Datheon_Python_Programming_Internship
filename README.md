@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hangman Word Guessing Game (Console)
 
 An interactive, modular console-based Hangman game built in Python. This project features dynamic ASCII art gallows, robust input validation, and clean state tracking designed as a foundational programming exercise.
@@ -22,3 +23,6 @@ An interactive, modular console-based Hangman game built in Python. This project
    ```bash
    python hangman.py
    ```
+=======
+# Datheon_Python_Programming_Internship
+>>>>>>> a0a62b369ee4532862b87332d3e99b0f352d72ac
