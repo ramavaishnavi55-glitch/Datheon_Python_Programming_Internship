@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 # Hangman Word Guessing Game (Console)
 
 An interactive, modular console-based Hangman game built in Python. This project features dynamic ASCII art gallows, robust input validation, and clean state tracking designed as a foundational programming exercise.
@@ -23,6 +24,30 @@ An interactive, modular console-based Hangman game built in Python. This project
    ```bash
    python hangman.py
    ```
-=======
-# Datheon_Python_Programming_Internship
->>>>>>> a0a62b369ee4532862b87332d3e99b0f352d72ac
+
+---
+
+## Project 2: Stock Portfolio Performance Tracker (CLI & CSV)
+
+An investment portfolio tracking utility that computes real-time valuation, percentage returns, sector diversification, and automatically logs performance metrics to an external CSV file.
+
+### Features
+
+- **Live Market Data:** Integrates with `yfinance` to fetch real-time stock pricing.
+- **CSV Database Validation:** Validates user-entered ticker symbols against the S&P 500 constituents dataset (`constituents.csv`).
+- **Sector Diversification Analytics:** Automatically calculates and displays your portfolio allocation by GICS sector.
+- **Terminal Color-Coding:** Uses `colorama` to highlight positive gains in green and losses in red.
+- **Persistent Logging:** Exports session summaries directly to `portfolio_summary.csv`.
+
+### Requirements
+
+- Python 3.x
+- External Libraries: `yfinance`, `pandas`, `colorama`
+
+### How to Run
+
+1. Ensure `constituents.csv` is in the same directory as `portfolio.py`.
+2. Install the required dependencies:
+   ```bash
+   pip install yfinance pandas colorama
+   ```

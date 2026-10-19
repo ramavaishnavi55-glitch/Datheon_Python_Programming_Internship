@@ -161,5 +161,5 @@ if __name__ == "__main__":
         play_hangman()
         replay = input("\nWould you like to play another round? (y/n): ").strip().lower()
         if replay != 'y':
-            print("Thank you for playing! Best of luck with your internship assignment!")
+            print("Thank you for playing! Best of luck!")
             break
